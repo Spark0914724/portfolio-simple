@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #00d2ff;
+  --color-secondary: #3a7bd5;
+  --color-background-dark: #0b1120;
+  --color-surface-dark: #151e32;
+  --color-accent-pink: #d946ef;
+  --color-accent-purple: #8b5cf6;
+}
+
+/* Hide default cursor */
+* {
+  cursor: none !important;
+}
+
+/* Cursor pointer for interactive elements */
+a,
+button,
+input,
+textarea,
+select,
+[role='button'],
+.cursor-pointer {
+  cursor: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b1120;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+.text-gradient {
+  background: linear-gradient(to right, #22d3ee, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.border-gradient {
+  background: linear-gradient(to bottom right, #22d3ee, #a855f7, #ec4899);
+}
+body {
+  min-height: max(884px, 100dvh);
+}
