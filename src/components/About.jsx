@@ -76,7 +76,7 @@ function AboutMe() {
   const infoItems = [
     { label: 'Name', value: 'Jennifer Hill', icon: MdPerson, color: 'text-cyan-400' },
     { label: 'Email', value: 'jennifer0914H@outlook.com', icon: MdEmail, color: 'text-pink-400' },
-    { label: 'Experience', value: '5+ years experience', icon: MdWork, color: 'text-purple-400' },
+    { label: 'Experience', value: '3+ years experience', icon: MdWork, color: 'text-purple-400' },
     { label: 'Location', value: 'Espoo, Finland', icon: MdLocationOn, color: 'text-green-400' },
   ]
 
@@ -116,7 +116,7 @@ function AboutMe() {
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
         >
-          I&apos;m Jennifer Hill, a MERN Stack Developer with over 2 years of hands-on experience building scalable, high-performance web applications. I specialize in MongoDB, Express.js, React.js, and Node.js, with a strong focus on clean architecture, reusable components, and user-centric design.
+          I&apos;m Jennifer Hill, a Backend / Full Stack Developer with 3+ years of hands-on experience building scalable backend systems and full-stack web applications. I specialize in Node.js, Express, and NestJS, with strong expertise in REST API, GraphQL, and WebSockets, focusing on clean architecture, performance optimization, and reliable system design.
         </motion.p>
         <motion.p 
           className="text-slate-300 leading-relaxed text-lg relative z-10 mt-4"
@@ -125,7 +125,7 @@ function AboutMe() {
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
         >
-          I&apos;m passionate about transforming ideas into seamless digital experiences, whether it&apos;s developing full-stack applications or crafting responsive, visually engaging websites. In addition to MERN development, I&apos;m also a WordPress Elementor Developer, capable of delivering fast, SEO-friendly, and conversion-optimized websites.
+          I&apos;m passionate about building efficient, high-performing systems—from designing robust backend services to integrating seamless frontend experiences using React, Next.js, and TypeScript. I have solid experience working with PostgreSQL and MongoDB, along with Docker-based CI/CD workflows to ensure smooth deployment and scalability.
         </motion.p>
         <motion.p 
           className="text-slate-300 leading-relaxed text-lg relative z-10 mt-4"
@@ -134,7 +134,7 @@ function AboutMe() {
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
         >
-          I value clean code, performance, and continuous learning, and I enjoy working on projects that challenge me to grow as a developer. Search <span className="text-cyan-400 font-semibold">&quot;hakimcolor&quot;</span> on Google or any platform and you&apos;ll find me!
+          I value clean, maintainable code and continuous improvement, and I enjoy solving complex problems through backend architecture enhancements, API optimization, and database performance tuning—delivering measurable results like faster response times and improved query efficiency.
         </motion.p>
         
         <motion.div 
