@@ -20,7 +20,7 @@ const contactInfo = [
     value: '@spark0914',
     href: 'https://t.me/spark0914',
     color: 'text-blue-400',
-    bgColor: 'from-green-500/20 to-green-600/10',
+    bgColor: 'from-blue-500/20 to-blue-600/10',
   },
   {
     icon: FaGithub,
@@ -33,10 +33,10 @@ const contactInfo = [
   {
     icon: MdLocationOn,
     label: 'Location',
-    value: 'Espoo, Finland',
+    value: 'Saint-Petersburg, Russia',
     href: null,
-    color: 'text-cyan-400',
-    bgColor: 'from-cyan-500/20 to-cyan-600/10',
+    color: 'text-green-400',
+    bgColor: 'from-green-500/20 to-green-600/10',
   },
 ]
 

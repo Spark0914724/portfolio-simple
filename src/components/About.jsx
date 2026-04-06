@@ -77,7 +77,7 @@ function AboutMe() {
     { label: 'Name', value: 'Jennifer Hill', icon: MdPerson, color: 'text-cyan-400' },
     { label: 'Email', value: 'jennifer0914H@outlook.com', icon: MdEmail, color: 'text-pink-400' },
     { label: 'Experience', value: '3+ years experience', icon: MdWork, color: 'text-purple-400' },
-    { label: 'Location', value: 'Espoo, Finland', icon: MdLocationOn, color: 'text-green-400' },
+    { label: 'Location', value: 'Saint-Petersburg, Russia', icon: MdLocationOn, color: 'text-green-400' },
   ]
 
   return (
@@ -186,35 +186,35 @@ function Skills() {
   const frontendSkills = [
     { name: 'HTML5', icon: FaHtml5, color: 'text-orange-600', bgColor: 'from-orange-600/20 to-orange-700/10', barColor: 'bg-orange-600', percent: 95 },
     { name: 'CSS3', icon: FaCss3Alt, color: 'text-blue-600', bgColor: 'from-blue-600/20 to-blue-700/10', barColor: 'bg-blue-600', percent: 90 },
-    { name: 'JavaScript', icon: FaJs, color: 'text-yellow-400', bgColor: 'from-yellow-400/20 to-yellow-500/10', barColor: 'bg-yellow-400', percent: 88 },
+    { name: 'JavaScript', icon: FaJs, color: 'text-yellow-400', bgColor: 'from-yellow-400/20 to-yellow-500/10', barColor: 'bg-yellow-400', percent: 90 },
     { name: 'Bootstrap', icon: FaBootstrap, color: 'text-purple-500', bgColor: 'from-purple-500/20 to-purple-600/10', barColor: 'bg-purple-500', percent: 85 },
     { name: 'React JS', icon: FaReact, color: 'text-cyan-400', bgColor: 'from-cyan-400/20 to-cyan-500/10', barColor: 'bg-cyan-400', percent: 90 },
-    { name: 'TypeScript', icon: TbBrandTypescript, color: 'text-blue-500', bgColor: 'from-blue-500/20 to-blue-600/10', barColor: 'bg-blue-500', percent: 88 },
-    { name: 'Next.js', icon: TbBrandNextjs, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 82 },
-    { name: 'Vue.js', icon: SiVuedotjs, color: 'text-emerald-500', bgColor: 'from-emerald-500/20 to-emerald-600/10', barColor: 'bg-emerald-500', percent: 82 },
-    { name: 'Angular', icon: SiAngular, color: 'text-red-500', bgColor: 'from-red-500/20 to-red-600/10', barColor: 'bg-red-500', percent: 82 },
-    { name: 'React Native', icon: TbBrandReactNative, color: 'text-cyan-400', bgColor: 'from-cyan-400/20 to-cyan-500/10', barColor: 'bg-cyan-400', percent: 82 },
-    { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-sky-500', bgColor: 'from-sky-500/20 to-sky-600/10', barColor: 'bg-sky-500', percent: 92 },
+    { name: 'TypeScript', icon: TbBrandTypescript, color: 'text-blue-500', bgColor: 'from-blue-500/20 to-blue-600/10', barColor: 'bg-blue-500', percent: 90 },
+    { name: 'Next.js', icon: TbBrandNextjs, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 90 },
+    { name: 'Vue.js', icon: SiVuedotjs, color: 'text-emerald-500', bgColor: 'from-emerald-500/20 to-emerald-600/10', barColor: 'bg-emerald-500', percent: 85 },
+    { name: 'Angular', icon: SiAngular, color: 'text-red-500', bgColor: 'from-red-500/20 to-red-600/10', barColor: 'bg-red-500', percent: 85 },
+    { name: 'React Native', icon: TbBrandReactNative, color: 'text-cyan-400', bgColor: 'from-cyan-400/20 to-cyan-500/10', barColor: 'bg-cyan-400', percent: 80 },
+    { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-sky-500', bgColor: 'from-sky-500/20 to-sky-600/10', barColor: 'bg-sky-500', percent: 90 },
   ]
 
   const backendSkills = [
-    { name: 'Node JS', icon: FaNodeJs, color: 'text-green-500', bgColor: 'from-green-500/20 to-green-600/10', barColor: 'bg-green-500', percent: 85 },
-    { name: 'Express JS', icon: SiExpress, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 82 },
+    { name: 'Node JS', icon: FaNodeJs, color: 'text-green-500', bgColor: 'from-green-500/20 to-green-600/10', barColor: 'bg-green-500', percent: 90 },
+    { name: 'Express JS', icon: SiExpress, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 85 },
     { name: 'PHP', icon: SiPhp, color: 'text-indigo-400', bgColor: 'from-indigo-400/20 to-indigo-500/10', barColor: 'bg-indigo-400', percent: 85 },
-    { name: 'Nest.js', icon: SiNestjs, color: 'text-rose-600', bgColor: 'from-rose-600/20 to-rose-700/10', barColor: 'bg-rose-600', percent: 85 },
-    { name: 'Laravel', icon: SiLaravel, color: 'text-red-500', bgColor: 'from-red-500/20 to-red-600/10', barColor: 'bg-red-500', percent: 85 },
+    { name: 'Nest.js', icon: SiNestjs, color: 'text-rose-600', bgColor: 'from-rose-600/20 to-rose-700/10', barColor: 'bg-rose-600', percent: 80 },
+    { name: 'Laravel', icon: SiLaravel, color: 'text-red-500', bgColor: 'from-red-500/20 to-red-600/10', barColor: 'bg-red-500', percent: 90 },
     { name: 'Python', icon: FaPython, color: 'text-blue-400', bgColor: 'from-blue-400/20 to-yellow-400/10', barColor: 'bg-blue-400', percent: 85 },
     { name: 'Golang', icon: SiGo, color: 'text-cyan-500', bgColor: 'from-cyan-500/20 to-cyan-600/10', barColor: 'bg-cyan-500', percent: 85 },
     { name: 'GraphQL', icon: SiGraphql, color: 'text-pink-500', bgColor: 'from-pink-500/20 to-pink-600/10', barColor: 'bg-pink-500', percent: 85 },
-    { name: 'Firebase', icon: SiFirebase, color: 'text-orange-500', bgColor: 'from-orange-500/20 to-yellow-500/10', barColor: 'bg-orange-500', percent: 75 },
+    { name: 'Firebase', icon: SiFirebase, color: 'text-orange-500', bgColor: 'from-orange-500/20 to-yellow-500/10', barColor: 'bg-orange-500', percent: 80 },
   ]
 
   const databaseSkills = [
     { name: 'PostgreSQL', icon: SiPostgresql, color: 'text-blue-400', bgColor: 'from-blue-400/20 to-blue-500/10', barColor: 'bg-blue-400', percent: 85 },
-    { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500', bgColor: 'from-green-500/20 to-green-600/10', barColor: 'bg-green-500', percent: 80 },
+    { name: 'MongoDB', icon: SiMongodb, color: 'text-green-500', bgColor: 'from-green-500/20 to-green-600/10', barColor: 'bg-green-500', percent: 85 },
     { name: 'MySQL', icon: SiMysql, color: 'text-blue-500', bgColor: 'from-blue-500/20 to-orange-400/10', barColor: 'bg-blue-500', percent: 90 },
-    { name: 'Oracle', icon: SiOracle, color: 'text-red-600', bgColor: 'from-red-600/20 to-red-700/10', barColor: 'bg-red-600', percent: 78 },
-    { name: 'ClickHouse', icon: SiClickhouse, color: 'text-yellow-500', bgColor: 'from-yellow-500/20 to-yellow-600/10', barColor: 'bg-yellow-500', percent: 78 },
+    { name: 'Oracle', icon: SiOracle, color: 'text-red-600', bgColor: 'from-red-600/20 to-red-700/10', barColor: 'bg-red-600', percent: 80 },
+    { name: 'ClickHouse', icon: SiClickhouse, color: 'text-yellow-500', bgColor: 'from-yellow-500/20 to-yellow-600/10', barColor: 'bg-yellow-500', percent: 80 },
     // { name: 'SQL', icon: MdStorage, color: 'text-purple-400', bgColor: 'from-purple-400/20 to-purple-500/10', barColor: 'bg-purple-400', percent: 78 },
   ]
 
@@ -222,9 +222,9 @@ function Skills() {
     { name: 'VS Code', icon: TbBrandVscode, color: 'text-blue-500', bgColor: 'from-blue-500/20 to-blue-600/10', barColor: 'bg-blue-500', percent: 95 },
     { name: 'Git', icon: FaGitAlt, color: 'text-orange-600', bgColor: 'from-orange-600/20 to-orange-700/10', barColor: 'bg-orange-600', percent: 85 },
     { name: 'GitHub', icon: FaGithub, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 90 },
-    { name: 'NPM', icon: FaNpm, color: 'text-red-500', bgColor: 'from-red-500/20 to-red-600/10', barColor: 'bg-red-500', percent: 88 },
+    { name: 'NPM', icon: FaNpm, color: 'text-red-500', bgColor: 'from-red-500/20 to-red-600/10', barColor: 'bg-red-500', percent: 90 },
     { name: 'Netlify', icon: SiNetlify, color: 'text-teal-400', bgColor: 'from-teal-400/20 to-teal-500/10', barColor: 'bg-teal-400', percent: 85 },
-    { name: 'Vercel', icon: SiVercel, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 88 },
+    { name: 'Vercel', icon: SiVercel, color: 'text-slate-300', bgColor: 'from-slate-300/20 to-slate-400/10', barColor: 'bg-slate-300', percent: 85 },
     { name: 'Postman', icon: SiPostman, color: 'text-orange-500', bgColor: 'from-orange-500/20 to-orange-600/10', barColor: 'bg-orange-500', percent: 80 },
   ]
 
