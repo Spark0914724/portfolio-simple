@@ -56,17 +56,10 @@ export default function About() {
       >
         <AboutMe />
         <Skills />
+        
       </motion.div>
-      <motion.div 
-        className="grid grid-cols-1 xl:grid-cols-2 gap-12"
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
-      >
-        <Experience />
+      <Experience />
         <Education />
-      </motion.div>
       <FAQ />
     </section>
   )
@@ -375,17 +368,17 @@ function Skills() {
 function Experience() {
   const experiences = [
     {
-      title: 'Freelance Web Developer',
-      company: 'Self-Employed',
-      period: '2023 - Present',
-      description: 'Building custom websites and web applications for clients using MERN stack and WordPress Elementor.',
+      title: 'Backend / Full Stack Developer',
+      company: 'SleekDigital, Singapore',
+      period: '08/2024 - 01/2026',
+      description: 'Key backend contributor and partial technical lead for a high-traffic SaaS platform: developed and optimized REST/GraphQL APIs, improved PostgreSQL/MongoDB performance, implemented JWT/RBAC security, built real-time WebSocket notifications, collaborated with React/Next.js frontend, and enhanced Docker-based CI/CD pipelines for faster, more reliable deployments.',
       color: 'cyan',
     },
     {
-      title: 'Full Stack Development Training',
-      company: 'Programming Hero',
-      period: '2024 - 2025',
-      description: 'Completed intensive training in MongoDB, Express.js, React.js, Node.js, and modern web development practices.',
+      title: 'Full Stack Developer',
+      company: 'SEIRIM, China',
+      period: '10/2023 - 05/2024',
+      description: 'Developed REST APIs and maintained backend services with Node.js/Express, optimized PostgreSQL/MongoDB schemas improving query performance by 20–30%, built responsive React/Next.js/Redux frontends, assisted CI/CD automation reducing deployment errors by 50%, and actively contributed to technical documentation and system design discussions to ensure robust, scalable solutions.',
       color: 'purple',
     },
   ]
@@ -457,19 +450,12 @@ function Experience() {
 function Education() {
   const educations = [
     {
-      title: 'BBA in Management',
-      institution: 'National University of Bangladesh',
-      period: '2024 - 2027',
-      description: 'Pursuing undergraduate degree in Business Administration.',
-      icon: MdSchool,
-    },
-    {
-      title: 'Full Stack Certification',
-      institution: 'Programming Hero',
-      period: '2025',
-      description: 'Intensive bootcamp covering MERN stack development and deployment.',
-      icon: MdMenuBook,
-    },
+      title: "Bachelor's Degree in Computer Science",
+      institution: "Peking University",
+      period: "2019 - 2023",
+      description: "Completed undergraduate degree in Computer Science.",
+      icon: MdSchool
+    }
   ]
 
   return (

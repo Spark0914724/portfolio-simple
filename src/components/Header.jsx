@@ -98,6 +98,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('#');
 
+  const currentYear = new Date().getFullYear();
+
   useEffect(() => {
     const header = headerRef.current;
     gsap.fromTo(
@@ -422,7 +424,7 @@ export default function Header() {
               variants={mobileItemVariants}
             >
               <p className="text-center text-slate-500 text-sm">
-                © 2024 Jennifer Hill
+                © {currentYear} Jennifer Hill
               </p>
             </motion.div>
           </motion.div>
