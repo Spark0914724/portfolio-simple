@@ -56,10 +56,9 @@ export default function About() {
       >
         <AboutMe />
         <Skills />
-        
       </motion.div>
       <Experience />
-        <Education />
+      <Education />
       <FAQ />
     </section>
   )
@@ -514,19 +513,19 @@ function FAQ() {
   const faqs = [
     {
       question: 'Why should you hire me?',
-      answer: 'I bring a strong combination of MERN stack expertise and WordPress development experience. I focus on writing clean, maintainable code while ensuring responsive design and an excellent user experience. I am passionate about learning new technologies and delivering projects on time with great attention to detail. Most importantly, I focus on your business goals—helping you grow through effective websites and other digital media solutions.',
+      answer: 'I bring a strong combination of backend and full-stack development expertise, with hands-on experience in Node.js, Express, NestJS, PostgreSQL, MongoDB, and Docker-based CI/CD. I focus on writing clean, maintainable code while ensuring high-performance APIs and responsive, user-friendly frontends with React and Next.js. I am passionate about learning new technologies and delivering projects on time with great attention to detail. Most importantly, I focus on your business goals—helping you grow through scalable, secure, and efficient web applications.',
     },
     {
       question: 'How can I help grow your e-commerce business?',
-      answer: 'I build fast, SEO-optimized eCommerce websites using React/Next.js or WordPress with WooCommerce. I focus on conversion optimization, mobile responsiveness, secure payment integration, and a smooth user experience to help increase sales and improve customer retention. I also follow the latest and most effective trends in web development and digital strategy to help grow your business through a modern, high-performing website.',
+      answer: 'I build fast, scalable e-commerce platforms using React/Next.js or WordPress with WooCommerce. I focus on conversion optimization, mobile responsiveness, secure payment integration, and seamless user experiences to help increase sales and boost customer retention. I also implement the latest best practices in backend performance, API optimization, and real-time features to help grow your business through a modern, high-performing, and reliable website.',
     },
     {
       question: 'What makes my development approach different?',
-      answer: 'I prioritize communication and understanding your business goals first. I write clean, scalable code with proper documentation. I use modern technologies and best practices to ensure your website is fast, secure, and easy to maintain in the long run.',
+      answer: 'I prioritize understanding your business goals and project requirements first. I write clean, maintainable, and scalable code with thorough documentation. I leverage modern technologies, performance optimization, and best practices to ensure your web applications are fast, secure, and reliable, while remaining easy to maintain and extend over time.',
     },
     {
       question: 'What is my project delivery process?',
-      answer: 'I follow a structured approach: 1) Understanding requirements, 2) Design mockups and approval, 3) Development with regular updates, 4) Testing and quality assurance, 5) Deployment and training. I keep you informed at every step and welcome feedback throughout the process.',
+      answer: 'I follow a structured approach: \n\n1) Understanding requirements and business goals.\n2) Designing system architecture and mockups for approval.\n3) Development with regular updates and milestone reviews.\n4) Testing, debugging, and quality assurance.\n5) Deployment and training for smooth handover.\n\nI keep you informed at every step and actively incorporate your feedback throughout the process.',
     },
   ]
 
@@ -611,7 +610,9 @@ function FAQ() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.1 }}
                   >
-                    {faq.answer}
+                    {faq.answer.split('\n').map((line, i) => (
+                      <span key={i} className={line === '' ? 'block mt-2' : 'block'}>{line}</span>
+                    ))}
                   </motion.p>
                 </div>
               </div>
