@@ -45,7 +45,7 @@ const infoItemVariants = {
 
 export default function About() {
   return (
-    <section className="w-full px-6 pb-20 md:pl-8 max-w-7xl mx-auto flex flex-col gap-16 relative z-10" id="about">
+    <section className="w-full px-6 pb-10 md:pl-8 max-w-7xl mx-auto flex flex-col gap-16 relative z-10" id="about">
       <div className="h-px w-full bg-gradient-to-r from-transparent via-slate-800 to-transparent mb-4"></div>
       <motion.div 
         className="flex flex-col gap-12"
@@ -139,7 +139,7 @@ function AboutMe() {
           {infoItems.map((item, index) => (
             <motion.div 
               key={item.label}
-              className="flex items-center gap-3 border-l-2 border-slate-700 pl-4 group/item cursor-default"
+              className="flex items-center gap-3 border-l-2 border-slate-700 pl-4 group/item cursor-default"  
               variants={infoItemVariants}
               whileHover={{ 
                 x: 5, 
