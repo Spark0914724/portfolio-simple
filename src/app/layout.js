@@ -5,7 +5,7 @@ import SmoothScroll from '@/components/SmoothScroll'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Jennifer Hill - Portfolio',
+  title: 'Xinyan Zheng - Portfolio',
   description: 'MERN Stack Developer Portfolio',
   icons: {
     icon: '/icon.svg',

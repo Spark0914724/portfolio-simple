@@ -26,7 +26,7 @@ export default function Footer() {
             transition={{ duration: 0.5 }}
             className="text-slate-400 text-sm"
           >
-            <p>© {currentYear} Jennifer Hill. All rights reserved.</p>
+            <p>© {currentYear} Xinyan Zheng. All rights reserved.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}

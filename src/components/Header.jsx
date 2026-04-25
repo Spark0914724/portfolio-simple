@@ -424,7 +424,7 @@ export default function Header() {
               variants={mobileItemVariants}
             >
               <p className="text-center text-slate-500 text-sm">
-                © {currentYear} Jennifer Hill
+                © {currentYear} Xinyan Zheng
               </p>
             </motion.div>
           </motion.div>

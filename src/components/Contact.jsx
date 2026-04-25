@@ -9,8 +9,8 @@ const contactInfo = [
   {
     icon: MdEmail,
     label: 'Email',
-    value: 'jennifer0914H@outlook.com',
-    href: 'mailto:jennifer0914H@outlook.com',
+    value: 'jennifer0914H@gmail.com',
+    href: 'mailto:jennifer0914H@gmail.com',
     color: 'text-pink-400',
     bgColor: 'from-pink-500/20 to-pink-600/10',
   },
@@ -33,7 +33,7 @@ const contactInfo = [
   {
     icon: MdLocationOn,
     label: 'Location',
-    value: 'Saint-Petersburg, Russia',
+    value: 'Beijing, China',
     href: null,
     color: 'text-green-400',
     bgColor: 'from-green-500/20 to-green-600/10',

@@ -162,7 +162,7 @@ export default function Sidebar() {
         </Link> */}
         <Link
           className="p-3 rounded-full bg-surface-dark hover:bg-slate-800 text-slate-400 hover:text-white transition-all hover:scale-110 group relative"
-          href="mailto:jennifer0914H@outlook.com"
+          href="mailto:jennifer0914H@gmail.com"
           target="_blank"
         >
           <MdEmail className="w-5 h-5 text-pink-400" />
@@ -320,7 +320,7 @@ export default function Sidebar() {
             </Link>
             <Link
               className="p-2 rounded-full bg-surface-dark hover:bg-slate-800 transition-all"
-              href="mailto:jennifer0914H@outlook.com"
+              href="mailto:jennifer0914H@gmail.com"
             >
               <MdEmail className="w-5 h-5 text-red-400" />
             </Link>

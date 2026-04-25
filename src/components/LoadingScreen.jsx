@@ -148,7 +148,7 @@ export default function LoadingScreen({ onComplete }) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            I&apos;m <span className="text-cyan-400 font-semibold">Jennifer Hill</span>
+            I&apos;m <span className="text-cyan-400 font-semibold">Xinyan Zheng</span>
           </motion.p>
 
           <motion.p

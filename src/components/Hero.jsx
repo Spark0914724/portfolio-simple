@@ -241,7 +241,7 @@ export default function Hero() {
             className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight"
             variants={itemVariants}
           >
-            <TypeWriter text="Jennifer Hill" />
+            <TypeWriter text="Xinyan Zheng" />
           </motion.h1>
           <motion.h2
             className="text-blue-200xl md:text-3xl font-bold text-slate-300 mt-3 flex items-center gap-2 justify-center md:justify-start flex-wrap"
@@ -385,9 +385,8 @@ export default function Hero() {
           <motion.button
             onClick={() => {
               const link = document.createElement('a');
-              link.href =
-                'https://drive.google.com/file/d/1F3wrr4kAbeJGlrvwYwEleCyStCOsCJdQ/view?usp=sharing';
-              link.download = 'Muhamaad_Azizul_Hakim_Resume.pdf';
+              link.href = '/Xinyan_Zheng_Resume.pdf';
+              link.download = 'Xinyan_Zheng_Resume.pdf';
               link.click();
             }}
             className="h-14 px-8 rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-bold text-base shadow-lg shadow-purple-500/25 flex items-center justify-center gap-2"
@@ -565,9 +564,10 @@ function ProfileImage3D() {
             whileHover={{ scale: 1.02 }}
           >
             <Image
-              src="https://i.ibb.co.com/5hydBhmc/hakimcolor.png"
-              alt="Jennifer Hill"
-              fill
+              src="/avatar.png"
+              alt="Xinyan Zheng"
+              width={400}
+              height={580}
               className="object-cover object-center"
             />
             {/* Image overlay effect */}
@@ -624,7 +624,7 @@ function ProfileImage3D() {
             animate={{ color: ['#ffffff', '#22d3ee', '#ffffff'] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            2+ Years
+            3+ Years
           </motion.span>
           <span className="text-slate-400">Experience</span>
         </div>

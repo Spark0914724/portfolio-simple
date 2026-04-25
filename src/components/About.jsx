@@ -66,10 +66,10 @@ export default function About() {
 
 function AboutMe() {
   const infoItems = [
-    { label: 'Name', value: 'Jennifer Hill', icon: MdPerson, color: 'text-cyan-400' },
-    { label: 'Email', value: 'jennifer0914H@outlook.com', icon: MdEmail, color: 'text-pink-400' },
+    { label: 'Name', value: 'Xinyan Zheng', icon: MdPerson, color: 'text-cyan-400' },
+    { label: 'Email', value: 'jennifer0914H@gmail.com', icon: MdEmail, color: 'text-pink-400' },
     { label: 'Experience', value: '3+ years experience', icon: MdWork, color: 'text-purple-400' },
-    { label: 'Location', value: 'Saint-Petersburg, Russia', icon: MdLocationOn, color: 'text-green-400' },
+    { label: 'Location', value: 'Beijing, China', icon: MdLocationOn, color: 'text-green-400' },
   ]
 
   return (
@@ -108,7 +108,7 @@ function AboutMe() {
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
         >
-          I&apos;m Jennifer Hill, a Backend / Full Stack Developer with 3+ years of hands-on experience building scalable backend systems and full-stack web applications. I specialize in Node.js, Express, and NestJS, with strong expertise in REST API, GraphQL, and WebSockets, focusing on clean architecture, performance optimization, and reliable system design.
+          I&apos;m Xinyan Zheng, a Backend / Full Stack Developer with 3+ years of hands-on experience building scalable backend systems and full-stack web applications. I specialize in Node.js, Express, and NestJS, with strong expertise in REST API, GraphQL, and WebSockets, focusing on clean architecture, performance optimization, and reliable system design.
         </motion.p>
         <motion.p 
           className="text-slate-300 leading-relaxed text-lg relative z-10 mt-4"
