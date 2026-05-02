@@ -17,8 +17,8 @@ const contactInfo = [
   {
     icon: FaTelegram,
     label: 'Telegram',
-    value: '@spark0914',
-    href: 'https://t.me/spark0914',
+    value: '@stellaa23123',
+    href: 'https://t.me/stellaa23123',
     color: 'text-blue-400',
     bgColor: 'from-blue-500/20 to-blue-600/10',
   },
@@ -44,7 +44,7 @@ const contactInfo = [
 //   {
 //     icon: FaGithub,
 //     label: 'GitHub',
-//     href: 'https://github.com/hakimcolor',
+//     href: 'https://github.com/spark0914724',
 //     color: 'hover:text-white hover:bg-slate-700',
 //   },
 //   {

@@ -12,7 +12,7 @@ const projects = [
       'A comprehensive money management application for tracking income, expenses, and financial reports with interactive charts and analytics.',
     image: 'https://i.ibb.co.com/Df8PhWQg/Screenshot-2026-01-17-002601.png',
     liveUrl: 'https://fineasmanagmentapp.netlify.app/',
-    githubUrl: 'https://github.com/hakimcolor',
+    githubUrl: 'https://github.com/spark0914724',
     tags: [
       'MongoDB',
       'Express',
@@ -28,7 +28,7 @@ const projects = [
       'A local chef bazaar app where admins manage users, chefs upload food, and users order meals.',
     image: 'https://i.ibb.co.com/pBcCkWPR/Screenshot-2026-01-06-105931.png',
     liveUrl: 'https://localchefbazaarbyhakimcolor.netlify.app/',
-    githubUrl: 'https://github.com/hakimcolor',
+    githubUrl: 'https://github.com/spark0914724',
     tags: [
       'React',
       'Node.js',
@@ -45,7 +45,7 @@ const projects = [
       'A community-based website where you can donate for public damage and upload posts about damaged public property.',
     image: 'https://i.ibb.co.com/MkQfSKPj/Screenshot-2026-01-06-110118.png',
     liveUrl: 'https://community-cleanliness.netlify.app/',
-    githubUrl: 'https://github.com/hakimcolor',
+    githubUrl: 'https://github.com/spark0914724',
     tags: [
       'React',
       'Node.js',
@@ -63,7 +63,7 @@ const projects = [
       'A pet care website where you can find many different services and book any service easily for your beloved pets.',
     image: 'https://i.ibb.co.com/C3HcdXsb/Screenshot-2026-01-06-105336.png',
     liveUrl: 'https://petcareinwinterssevises.netlify.app/',
-    githubUrl: 'https://github.com/hakimcolor',
+    githubUrl: 'https://github.com/spark0914724',
     tags: [
       'React',
       'Node.js',
@@ -128,7 +128,7 @@ export default function Projects() {
         >
           <Link
             className="text-sm font-medium text-cyan-400 hover:text-cyan-300 flex items-center gap-1"
-            href="https://github.com/hakimcolor"
+            href="https://github.com/spark0914724"
             target="_blank"
           >
             View all <MdArrowForward className="text-base" />

@@ -278,7 +278,7 @@ export default function Sidebar() {
           <div className="flex items-center gap-3">
             <Link
               className="p-2 rounded-full bg-surface-dark hover:bg-slate-800 text-slate-400 hover:text-white transition-all"
-              href="https://github.com/hakimcolor"
+              href="https://github.com/spark0914724"
               target="_blank"
             >
               <FaGithub className="w-5 h-5" />
